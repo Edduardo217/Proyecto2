@@ -1,0 +1,342 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #131d36;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 20px;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.logo a {
+    display: block;
+    padding: 20px 20px;
+    text-decoration: none;
+    color: #366bb1;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: Franklin Gothic Heavy;
+}
+
+.logo a:hover {
+    background: #0b7dff;
+    color: white;
+    box-shadow: 0 0 10px rgb(20, 54, 116), 0 0 20px rgb(64, 133, 189);
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #366bb1;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: Franklin Gothic Heavy;
+}
+
+.navbar a:hover {
+    background: #0b7dff;
+    color: white;
+    box-shadow: 0 0 10px rgb(20, 54, 116), 0 0 20px rgb(64, 133, 189);
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header {
+    height: 70vh !important;
+    background: url(img/header.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.title {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #8de41c;
+    text-shadow: 0 0 10px rgb(74, 143, 54), 0 0 8px rgb(116, 180, 32);
+    font-family: Segoe UI Black;
+}
+
+.inicio-title {
+    color: #184097; 
+    font-family: broadway;
+    text-shadow: 0 0 10px cyan, 0 0 20px blue;
+    font-size: 7em;
+    background-color: #1f2c46;        /* Fondo del cuadro */
+    padding: 10px 20px;            /* Espaciado interno */
+    display: inline-block;         /* Solo ocupa el espacio del texto */
+    border-radius: 15px;            /* Bordes redondeados (opcional) */
+    box-shadow: 0 0 5px rgb(23, 20, 161),
+                0 0 10px #0ff,
+                0 0 20px #0ff,
+                0 0 40px rgb(42, 40, 185);
+                
+}
+
+.tituloide {
+    font-size: 2em;
+    font-family: Bahnschrift SemiBold;
+    color: #536891;
+    text-shadow: 2px 2px 08px rgba(0, 0, 0, 0.5);
+     background-color: #1f2c46;        /* Fondo del cuadro */
+    padding: 12px 20px;            /* Espaciado interno */
+    display: inline-block;         /* Solo ocupa el espacio del texto */
+    text-shadow: 0 0 10px rgb(10, 43, 73), 0 0 20px rgb(65, 96, 161);
+}
+
+.infotitulo {
+    font-size: 5em;
+    font-family: Impact;
+    color: #0ff;
+    text-shadow: 0 0 10px cyan, 0 0 20px blue;
+    background-color: #1f2c46;
+    padding: 30px 40px;
+    display: inline-block;
+    border-radius: 16px;
+    box-shadow: 0 0 5px rgb(23, 20, 161),
+                0 0 10px #0ff,
+                0 0 20px #0ff,
+                0 0 40px rgb(42, 40, 185);
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #fff;
+    padding: 0 100px;
+    font-family: Bahnschrift SemiBold;
+    font-size: 2em;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 40px;
+    border: 2px solid #0a3261;
+    color: #fff;
+    text-decoration: none;
+    background: #2f57a0; 
+    font-family: Franklin Gothic Heavy;
+}
+
+img {
+    padding: 20px;
+}
+
+.btn:hover {
+    background: none;
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0 10px;
+}
+
+.content {
+    min-height: 100vh;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau {
+    padding: 30px;
+    background: #2d4372;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+ 
+
+.box-container .box {
+    height: 11rem;
+    width: 17rem;
+    background: #115288;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 0 5px rgb(23, 20, 161),
+                0 0 10px #0ff,
+                0 0 20px #0ff,
+                0 0 40px rgb(42, 40, 185);
+    margin: 2rem;
+}
+
+.box-container .box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #3086c0;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.box-container .box h3 {
+    font-size: 20px;
+    color: #8eaeff;
+}
+
+.box-container .box p {
+    padding: 10px  15px;
+    font-size: 16px;
+}
+
+.about {
+    background: #131b47;
+}
+
+.price {
+    background: url(img/costos.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+.contact {
+    padding-top: 20px;
+    background: #19253a;
+    padding-bottom: 0;
+}
+
+.container-form {
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 50px;
+        margin-top: 90px;
+    }
+    .container-form h2 {
+      margin-bottom: 15px;
+      font-size: 55px;
+      width: 50%;
+    }
+    .container-form p {
+    font-size: 30px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    }
+    .container-form a{
+      font-size: 17px;
+      display: inline-block;
+      text-decoration: none;
+      color: #0d1538;
+      border-radius: 15px;            /* Bordes redondeados (opcional) */
+    box-shadow: 0 0 5px rgb(23, 20, 161),
+                0 0 10px #0ff,
+                0 0 20px #0ff,
+                0 0 40px rgb(42, 40, 185);
+      background-color: #0ff;
+      width: 80%;
+      margin-bottom: 15px;
+      font-weight: 700;
+    }
+    .container-form form .campo, textarea {
+      width: 100%;
+      padding: 15px 10px;
+      font-size: 15px;
+      border: 03px solid #18496b;
+      box-shadow: 0 0 5px rgb(23, 20, 161),
+                0 0 10px #0ff,
+                0 0 20px #0ff,
+                0 0 40px rgb(42, 40, 185);
+      margin-bottom: 20px;
+      border-radius: 3px;
+      outline: 0px;
+    }
+    .container-form form textarea {
+      max-width: 530px;
+      min-width: 590px;
+      min-height: 140px;
+      max-height: 150px;
+    }
+    .container-form .btn-enviar {
+      padding: 20px;
+      font-size: 25px;
+      font-family: impact;
+      border: none;
+      background: rgb(5, 31, 53);
+      color: rgb(37, 160, 182);
+      box-shadow: 0 0 5px rgb(23, 20, 161),
+                0 0 10px #0ff,
+                0 0 20px #0ff,
+                0 0 40px rgb(42, 40, 185);
+      border-radius: 3px;
+      cursor: pointer;
+      transition: all 300ms ease;
+    }
+    .container-form .btn-enviar:hover {
+      color: rgb(14, 40, 75);
+      background: #8ebeda;
+    }
+
+@media (max-width: 768px) {
+
+    .title {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+    
+    .inicio-title {
+        font-size: 3.5em; /* Aumenta más que .tituloide */
+    }
+
+    p {
+    font-size: 1em;
+    }
+
+    .tituloide {
+        font-size: 1.5em; /* Opcional: hazla un poco más pequeña */
+    }
+
+    .sau {
+        height: 120vh;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+}
